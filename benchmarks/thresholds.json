@@ -1,0 +1,21 @@
+{
+  "totalMinimum": 60,
+  "categories": {
+    "build": 70,
+    "quality": 50,
+    "security": 60,
+    "performance": 50,
+    "maintainability": 40
+  },
+  "performance": {
+    "maxBundleSizeBytes": 524288
+  },
+  "dependencies": {
+    "maxCount": 20,
+    "blocklist": ["*-ui-kit*", "lodash"]
+  },
+  "maintainability": {
+    "maxAvgFileLines": 300,
+    "maxDuplicateLines": 50
+  }
+}

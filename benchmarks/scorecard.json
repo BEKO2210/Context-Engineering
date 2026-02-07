@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "name": "build",
+      "weight": 30,
+      "runners": ["build", "typecheck"]
+    },
+    {
+      "name": "quality",
+      "weight": 20,
+      "runners": ["lint", "test"]
+    },
+    {
+      "name": "security",
+      "weight": 20,
+      "runners": ["deps"]
+    },
+    {
+      "name": "performance",
+      "weight": 20,
+      "runners": ["build"]
+    },
+    {
+      "name": "maintainability",
+      "weight": 10,
+      "runners": ["maintainability"]
+    }
+  ]
+}

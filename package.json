@@ -1,0 +1,32 @@
+{
+  "name": "context-engineering",
+  "version": "1.0.0",
+  "description": "Context Engineering + Closed-Loop Agent Benchmarks template repository",
+  "author": "Belkis Aslani",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "benchmark": "tsx benchmarks/run.ts",
+    "orchestrator:dry": "tsx tools/orchestrator/run.ts --dry-run"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^25.2.1",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^8.0.0",
+    "vitest": "^2.0.0"
+  }
+}

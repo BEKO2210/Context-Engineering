@@ -1,0 +1,25 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "date": "2024-01-01",
+      "category": "setup",
+      "lesson": "Always use ESM consistently — mixing CJS and ESM causes hard-to-debug import errors.",
+      "context": "Initial project setup"
+    },
+    {
+      "id": 2,
+      "date": "2024-01-01",
+      "category": "benchmarks",
+      "lesson": "Deterministic benchmarks are essential for CI gating. Never use network calls or timestamps in scoring logic.",
+      "context": "Benchmark system design"
+    },
+    {
+      "id": 3,
+      "date": "2024-01-01",
+      "category": "dependencies",
+      "lesson": "Fewer dependencies means less supply chain risk. Write small utilities instead of importing large libraries.",
+      "context": "Dependency policy design"
+    }
+  ]
+}
